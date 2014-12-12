@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Test</title>
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/browse.css">
+	<link rel="stylesheet" href="css/book.css">
 	
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -18,8 +18,8 @@
 				<a href="index.html" class="navbar-brand">San Diego Street Eats</a>
 			</div>
 			<ul class="nav navbar-nav navbar-left">
-				<li><a href="browse.html">Browse Trucks</a></li>
-				<li class="active"><a href="book.html">Book Catering</a></li>
+				<li><a href="browse.html">Browse Food Trucks</a></li>
+				<li class="active"><a href="book.html">Book Catering Service</a></li>
 				<li><a href="events.html">View Events</a></li>
 			</ul>
 		</div>
@@ -27,30 +27,82 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12">
-				<h1>Book for Catering</h1>
-				<h2>How It Works</h2>
+				<header class="main-header">
+					<h1>Book Catering</h1>
+				</header>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-3">
-				<h3>Step 1: Fill out the Details</h3>
-				<p>Let us know when &amp; where you need a truck.</p>
-			</div>
-			<div class="col-xs-3">
-				<h3>Step 2: Recieve List of Trucks</h3>
-				<p>We do the legwork and select the most delicious and reliable vendors. Oh yeah, we also secure the best rates.</p>
-			</div>
-			<div class="col-xs-3">
-				<h3>Step 3: Pick Your Trucks</h3>
-				<p>Let us know which menu is your fave and we will lock it down. We can book one truck or one hundred.</p>
-			</div>
-			<div class="col-xs-3">
-				<h3>Step 4: Confirm Your Order</h3>
-				<p>We book and confirm your trucks, and you sit back and eat!</p>
+			<div class="col-xs-12">
+				<div class="panel panel-default steps shadowed">
+					<div class="panel-heading">
+						<h2>How It Works</h2>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-xs-3">
+								<section class="step">
+									<h3>Step 1: Fill out the Details</h3>
+									<p>Let us know when &amp; where you need a truck.</p>
+								</section>
+							</div>
+							<div class="col-xs-3">
+								<section class="step">
+									<h3>Step 2: Recieve List of Trucks</h3>
+									<p>We do the legwork and select the most delicious and reliable vendors. Oh yeah, we also secure the best rates.</p>
+								</section>
+							</div>
+							<div class="col-xs-3">
+								<section class="step">
+									<h3>Step 3: Pick Your Trucks</h3>
+									<p>Let us know which menu is your fave and we will lock it down. We can book one truck or one hundred.</p>
+								</section>
+							</div>
+							<div class="col-xs-3">
+								<section class="step">
+									<h3>Step 4: Confirm Your Order</h3>
+									<p>We book and confirm your trucks, and you sit back and eat!</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-4 col-xs-offset-4">
+				<section class="panel panel-default shadowed request">
+					<div class="panel-heading">
+						<h2>Request for Catering</h2>
+					</div>
+					<div class="panel-body">
+						<form>
+							<div class="form-group">
+								<label>Zip Code</label>
+								<input class="form-control" type="text">
+							</div>
+							<div class="form-group">
+								<label>How Many Eaters?</label>
+								<input class="form-control" type="text">
+							</div>
+							<div class="form-group">
+								<label>What are you serving?</label>
+								<div class="checkbox">
+									<label><input type="checkbox">Entree</label>
+									<label><input type="checkbox">Snack</label>
+									<label><input type="checkbox">Drink</label>
+									<label><input type="checkbox">Dessert</label>
+								</div>
+							</div>
+							<output>
+								<h3>Estimated Cost</h3>
+								<p>$800 - $1200</p>
+							</output>
+							<input class="form-control" type="submit" value="Book Now!">
+						</form>
+					</div>
+				</section>
+				<!--
 				<h2>Request for Catering</h2>
 				<form>
 					<div class="form-group">
@@ -76,6 +128,7 @@
 					</output>
 					<input class="form-control" type="submit" value="Book Now!">
 				</form>
+				-->
 			</div>
 		</div>
 		<!--
