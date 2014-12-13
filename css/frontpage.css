@@ -1,2 +1,28 @@
 
-/* Background image test */
+/*
+footer {
+	height: 100%;
+	overflow: auto;
+}
+
+main {
+	height: 650px;
+}
+
+html, body {
+	height: 100%;
+}*/
+
+.slogan {
+	margin: 10em 0 10em;
+	background-color: rgba(65, 65, 65, 0.2);
+	padding: 1em;
+	border-radius: 15px;
+}
+
+.slogan h1 {
+	color: white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	margin: 0 0 2em;
+}

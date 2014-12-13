@@ -7,19 +7,8 @@
 	height: 37em;
 }
 
-
-.trucks-header {
-	height: 3em;
-	/*overflow-y: scroll;*/
-}
-
 .trucks {
-	max-height: 100px;
-	/*overflow-y: scroll;*/
-}
-
-.truck {
-	height: 3em;
+	padding-bottom: 0.1em;
 }
 
 .filter {
