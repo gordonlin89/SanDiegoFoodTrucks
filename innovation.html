@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Food Truck - Bitchin Burger</title>
+	<title>Event - Innovation Accademy</title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/truck.css">
 	
@@ -28,103 +28,79 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<header class="main-header">
-					<h1>Bitchin Burger</h1>
-					<div class="rating">
-						<span class="glyphicon glyphicon-star"></span>
-						<span class="glyphicon glyphicon-star"></span>
-						<span class="glyphicon glyphicon-star"></span>
-						<span class="glyphicon glyphicon-star-empty"></span>
-						<span class="label label-default">2 Reviews</span>
-					</div>
-					<h5><em>Burgers</em></h5>
+					<h1>Innovation Accademy</h1>
 				</header>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-8">
 				<div class="main-color shadowed">
-					<ul class="nav nav-tabs nav-justified">
-						<li class="inactive-color"><a href="truck.html">Overview</a></li>
-						<li class="active"><a href="menu.html">Menu</a></li>
-					</ul>
-					<section class="menu">
-						<table class="table">
+					<div id="carousel-example-generic" class="carousel slide truck-carousel" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+						
+						<!-- Images -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img class="center-block img-responsive" src="img/innovation.png" alt="...">
+							</div>
+							<div class="item">
+								<img class="center-block img-responsive" src="img/innovation.png" alt="...">
+							</div>
+						</div>
+						
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<section class="padded-side">
+						<h3>About</h3>
+						<p>Food fair at Best Buy.</p>
+					</section>
+					<hr>
+					<section class="padded-side">
+						<h3>Attending Food Trucks</h3>
+						<table class="table table-hover table-responsive trucks">
 							<thead>
 								<tr>
-									<th>Burgers</th>
-									<th><small>Price</small></th>
+									<th>Truck</th>
+									<th>Food</th>
+									<th>Rating</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
+									<td><a href="truck.html">Bitchin Burgers</a></td>
+									<td>Burgers</td>
 									<td>
-										<h4>BURGER</h4>
-										<p><em>Dijon aioli, lettuce, tomato and grilled onions</em></p>
-									</td>
-									<td>
-										$7.00 / slider $3.50
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<h4>CHEESY BACON BURGER</h4>
-										<p><em>Dijon aioli, aged white cheddar, uncured bacon, lettuce, tomato and grilled onions</em></p>
-									</td>
-									<td>
-										$9.00 / slider $4.50
+										<div>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star-empty"></span>
+										</div>
 									</td>
 								</tr>
 								<tr>
+									<td><a href="truck.html">Cubby's</a></td>
+									<td>Burgers, Sanwiches, Wraps</td>
 									<td>
-										<h4>CHEESY BACON BURGER</h4>
-										<p><em>Dijon aioli, aged white cheddar, uncured bacon, lettuce, tomato and grilled onions</em></p>
-									</td>
-									<td>
-										$9.00 / slider $4.50
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<h4>CHIPOTLE GOUDA</h4>
-										<p><em>Chipotle aioli, smoked gouda, uncured bacon, lettuce, tomato and grilled onions</em></p>
-									</td>
-									<td>
-										$9.00 / slider $4.50
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<h4>PORTOBELLO BURGER</h4>
-										<p><em>Choice of aioli, smoked gouda, lettuce tomato and grilled onions</em></p>
-									</td>
-									<td>
-										$7.00 / slider $3.50 (no beef patty)
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<table class="table">
-							<thead>
-								<tr>
-									<th>Toppings</th>
-									<th><small>Price</small></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>
-										<h4>Cheese</h4>
-									</td>
-									<td>
-										$1.00
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<h4>EGG </h4>
-									</td>
-									<td>
-										$1.00
+										<div>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star-empty"></span>
+										</div>
 									</td>
 								</tr>
 							</tbody>
@@ -137,25 +113,9 @@
 					<div class="panel-heading">
 						<h4>Schedule</h4>
 					</div>
-					<table class="table">
-						<thead>
-							<tr>
-								<th>Date</th>
-								<th>Location</th>
-								<th>Time</th>
-							</tr>
-						</thead>
-						<tr>
-							<td>Dec 13th</td>
-							<td>Private Event</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>Dec 14th</td>
-							<td><a href="http://www.streetmasters.org/" target="_blank">Street Masters Car Show</a></td>
-							<td>11:00am</td>
-						</tr>
-					</table>
+					<div class="panel-body">
+						December 14th, 11:00am - 3:00pm
+					</div>
 				</section>
 				<section class="panel panel-default shadowed">
 					<div class="panel-heading">
@@ -167,30 +127,7 @@
 					<div class="location-map" id="map-canvas"></div>
 				</section>
 				<section class="panel panel-default shadowed">
-					<div class="panel-heading">
-						<h4>Business Info</h4>
-					</div>
-					<table class="table">
-						<tr>
-							<td>Accepts Credit Card</td>
-							<td>Yes</td>
-						</tr>
-					</table>
-				</section>
-				<section class="panel panel-default shadowed">
-					<div class="panel-heading">
-						<h4>Contact</h4>
-					</div>
-					<table class="table">
-						<tr>
-							<td>Phone</td>
-							<td>(760) 458-7602</td>
-						</tr>
-						<tr>
-							<td>Website</td>
-							<td><a href="http://bitchinburgersfoodtruck.com/" target="_blank">http://bitchinburgersfoodtruck.com/</a></td>
-						</tr>
-					</table>
+					<a class="twitter-timeline"  href="https://twitter.com/bitchinburgers" data-widget-id="543663438510043136">Tweets by @bitchinburgers</a>
 				</section>
 			</div>
 		</div>
@@ -258,5 +195,8 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
+	
+	<!-- Twitter -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </body>
 </html>
