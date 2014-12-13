@@ -2,8 +2,13 @@
 	height: 400px !important;
 }
 
+
 .carousel-control.left, .carousel-control.right {
     background-image: none !important;
+}
+
+.carousel-control {
+	color: dimgrey !important;
 }
 
 textarea {
